@@ -1,0 +1,310 @@
+.header {
+  background-color: pink;
+}
+.header-top {
+  height: 52px;
+  background-color: #333;
+}
+.header-top-main {
+  width: 1342px;
+  margin: 0 auto;
+  height: 52px;
+}
+.header-top-main ul {
+  float: right;
+}
+.header-top-main ul li{
+  float: left;
+  line-height: 52px;
+  color: #666666;
+}
+.header-top-main ul li a {
+  display: inline-block;
+  height: 52px;
+  padding: 0 16px;
+  line-height: 52px;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+.header-top-main ul li:last-child a::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 11px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 7px;
+  background: url('../images/sprites.png') ;
+  background-position: -160px -70px;
+  
+}
+
+
+.header-bottom {
+  height: 130px;
+  background-color: #fff;
+}
+.header-bottom-main {
+  height: 130px;
+  /* width: 1342px; */
+  width: 1250px;
+  margin: 0 auto;
+  padding: 30px 0 0 25px;
+  /* 内边距会撑大盒子，要添加自动内减 */
+  box-sizing: border-box;
+}
+.header-bottom-main .logo {
+  float: left;
+  height: 70px;
+  width: 207px;
+}
+.header-bottom-main .logo img {
+  width: 100%;
+}
+
+
+.header-bottom-main .daohang {
+  float: left;
+  width: 747px;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 26px;
+}
+.header-bottom-main .daohang ul li{
+  float: left;
+  font-size: 16px;
+  color: #333333;
+  margin-right: 48px;
+}
+.header-bottom-main .daohang ul li a:hover {
+  color: #27ba9b;
+  border-bottom: 1px solid #27ba9b ;
+
+}
+
+
+.header-bottom-main .search {
+  position: relative;
+  float: left;
+  width: 172px;
+  height: 30px;
+  margin-top: 24px;
+  border-bottom: 2px solid #e7e7e7;
+}
+.header-bottom-main .search input {
+  width: 170px;
+  height: 20px;
+  font-size: 14px;
+  color: black;
+  padding: 4px 0 12px 31px;
+  box-sizing: border-box;
+}
+.header-bottom-main .search::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  background: url('../images/sprites.png') -80px -69px;
+}
+
+
+.header-bottom-main .gouwuche {
+  position: relative;
+  float: left;
+  height: 31px;
+  width: 35px;
+  margin-top: 23px;
+  margin-left: 15px;
+  background-color: blue;
+  background: url('../images/sprites.png') -120px -70px;
+
+}
+.header-bottom-main .gouwuche span {
+  position: absolute;
+  right: 0;
+  top: -7px;
+  display: inline-block;
+  height: 14px;
+  width: 20px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+
+.fooder {
+  height: 645px;
+  /* background-color: pink; */
+}
+.fooder .fooder-top {
+  height: 300px;
+  width: 1240px;
+  margin: 0 auto;
+}
+.fooder .fooder-top ul {
+  height: 156px;
+  margin-top: 79px;
+  margin-left: 58px;
+  float: left;
+}
+.fooder .fooder-top ul li{
+  float: left;
+  width: 192px;
+	height: 143px;
+  margin-right: 93px;
+}
+.fooder .fooder-top ul li:last-child {
+  margin-right: 0;
+}
+.fooder .fooder-top ul li div:first-child {
+  margin: 0 auto;
+  width: 192px;
+  font-size: 16px;
+  text-align: center;
+  color: #999;
+}
+.fooder .fooder-top ul li div:nth-child(2),
+.fooder .fooder-top ul li div:last-child {
+  float: left;
+  margin-top: 25px;
+  width: 92px;
+  height: 93px;
+  border: 1px solid #eee;
+  text-align: center;
+  padding-top: 20px;
+  color: #999999;
+  font-size: 14px;
+}
+.fooder .fooder-top ul li div:nth-child(2) {
+  margin-right: 8px;
+}
+.fooder .fooder-top ul li div:nth-child(2) span,
+.fooder .fooder-top ul li div:nth-child(3) span {
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 6px;
+  width: 29px;
+	height: 27px;
+  color: #fff;
+  background: url('../images/sprites.png') -250px -70px;
+}
+.fooder .fooder-top .download {
+  float: left;
+  width: 241px;
+	height: 156px;
+  margin-left: 93px;
+  margin-top: 79px;
+  color: #999999;
+  font-size: 16px;
+  text-align: center;
+}
+.fooder .fooder-top .download img {
+  float: left;
+  width: 105px;
+	height: 103px;
+  padding: 7px;
+  margin-top: 12px;
+  border: 1px solid #999;
+}
+.fooder .fooder-top .download .download-main {
+  float: left;
+  text-align: left;
+  margin-left: 23px;
+  margin-top: 12px;
+}
+.fooder .fooder-top .download .download-main span {
+  display: block;
+  width: 103px;
+	height: 32px;
+  margin-top: 10px;
+	background-color: #27ba9b;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+}
+.fooder .fooder-top .service {
+  float: left;
+  height: 189px;
+  width: 234px;
+  margin-top: 70px;
+  margin-left: 33px;
+  padding-left: 74px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-left: 2px solid #f2f2f2;
+  color: #999999;
+  font-size: 16px;
+  text-align: center;
+}
+.fooder .fooder-top .service .tn {
+  display: block;
+  margin-top: 40px;
+  font-size: 22px;
+  color: #666;
+}
+.fooder .fooder-top .service .time {
+  display: block;
+  margin-top: 7px;
+  font-size: 15px;
+}
+.fooder .fooder-bottom {
+  height: 345px;
+
+  background-color: #333;
+}
+.fooder .fooder-bottom  .jz {
+  height: 345px;
+  width: 1240px;
+  margin: 0 auto;
+}
+.fooder .fooder-bottom ul li{
+  float: left;
+  width: 413px;
+  height: 177px;
+  font-size: 28px;
+  color: #fff;
+  line-height: 177px;
+  vertical-align:middle;
+  text-align: center;
+  border-bottom: 3px solid #434343;
+  margin-bottom: 55px;
+}
+.fooder .fooder-bottom ul li:first-child::before {
+  content: '';
+  display: inline-block;
+  width: 58px;
+	height: 58px;
+  vertical-align:middle;
+  background: url('../images/sprites.png') 0px 0px;
+  margin-right: 13px;
+}
+.fooder .fooder-bottom ul li:nth-child(2)::before {
+  content: '';
+  display: inline-block;
+  width: 58px;
+	height: 58px;
+  vertical-align:middle;
+  background: url('../images/sprites.png') -64px 0px;
+  margin-right: 13px;
+}
+.fooder .fooder-bottom ul li:last-child::before {
+  content: '';
+  display: inline-block;
+  width: 58px;
+	height: 58px;
+  vertical-align:middle;
+  background: url('../images/sprites.png') -129px 0px;
+  margin-right: 13px;
+}
+.fooder .fooder-bottom .jz .bt {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
